@@ -17,7 +17,7 @@ Este é o repositório do Banco de Dados "lojas-uvv", desenvolvido para o projet
 * Controle de pedidos, incluindo data e hora do pedido, status e referência às lojas e clientes.
 * Rastreamento de envios, com informações sobre o endereço de entrega, status e referência às lojas e clientes.
 ## Diagrama de Banco de Dados
-![Diagrama de Banco de Dados](https://github.com/Cmattedi/uvv_bd1_si1n/blob/main/pset1/si1n_202306288_postgresql.pdf)
+![Diagrama de Banco de Dados](https://github.com/Cmattedi/uvv_bd1_si1n/blob/main/pset1/download.png)
 
 ## Pré-requisitos
 Antes de iniciar o banco de dados "lojas-uvv", certifique-se de ter os seguintes requisitos:
