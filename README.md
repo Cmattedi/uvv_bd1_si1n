@@ -12,7 +12,7 @@ Este é o repositório do Banco de Dados "lojas-uvv", desenvolvido para o projet
 ## Pré-requisitos
 Antes de iniciar o banco de dados "lojas-uvv", certifique-se de ter os seguintes requisitos:
 
-* Sistema de Gerenciamento de Banco de Dados (SGBD) instalado. Recomendamo o PostgreSQL.
+* Sistema de Gerenciamento de Banco de Dados (SGBD) instalado. Recomendo o PostgreSQL.
 * Linguagem de programação SQL.
 * Conhecimento básico de SQL e comandos de criação de tabelas.
 
