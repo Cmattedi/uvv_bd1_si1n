@@ -1,5 +1,11 @@
 # Banco de Dados "lojas-uvv"
+* **Nome do Aluno:** Cosme braz mattedi
+* **Matrícula:** 202320306288
+* **Turma:** SI1N
+* **Nome do Professor:** Abrantes Araújo Silva Filho
+* **Nome da Monitora:** Suellen Miranda
 
+> Atividade avaliativa realizada na disciplina de Design e Desenvolvimento de Banco de Dados 1 pelo curso de Sistemas de Informação na Universidade Vila Velha.
 Este é o repositório do Banco de Dados "lojas-uvv", desenvolvido para o projeto UVV. O banco de dados é projetado para armazenar informações sobre lojas, produtos, clientes, pedidos e envios.
 
 ## Funcionalidades do Banco de Dados
