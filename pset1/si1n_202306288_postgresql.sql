@@ -22,15 +22,14 @@ LC_COLLATE = 'pt_BR.utf-8'
 LC_CTYPE =   'pt_BR.utf-8'
 ALLOW_CONNECTIONS = 'true';
 
--- Troca de conexão
-\c uvv;
-SET ROLE cosme;
-
 --Comando para criação do schema
 
 CREATE SCHEMA IF NOT EXISTS lojas AUTHORIZATION cosme;
 ALTER USER cosme;
 SET SEARCH_PATH TO lojas, "&user", public;
+
+--Troca de conexão 
+\c 'postgresql://cosme:123456@localhost:5432/uvv';
 
 --Final da criação do primeiro bloco 
 
