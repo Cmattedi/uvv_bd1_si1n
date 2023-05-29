@@ -1,4 +1,4 @@
---Começando do bloco do primeri bloco 
+--Começo do primerio bloco 
 
 DROP DATABASE IF EXISTS uvv; --Comando para apagar o banco de dados caso ele ja exista
 
@@ -12,6 +12,8 @@ CREATEROLE
 INHERIT
 ENCRYPTED PASSWORD '123456';
 
+\c 'postgresql://cosme:123456@localhost/postgres';
+
 --Comando para criação do banco de dados uvv com os seguinta parametros
 
 CREATE DATABASE uvv WITH
@@ -21,23 +23,18 @@ ENCODING =   'UTF8'
 LC_COLLATE = 'pt_BR.utf-8'
 LC_CTYPE =   'pt_BR.utf-8'
 ALLOW_CONNECTIONS = 'true';
+\c uvv;
 
 --Comando para criação do schema
 
 CREATE SCHEMA IF NOT EXISTS lojas AUTHORIZATION cosme;
-ALTER USER cosme;
-SET SEARCH_PATH TO lojas, "&user", public;
-
---Troca de conexão 
-\c 'postgresql://cosme:123456@localhost:5432/uvv';
+SET SEARCH_PATH TO lojas, "&USER", public;
+ALTER USER cosme
+SET SEARCH_PATH TO lojas, "&USER", public;
 
 --Final da criação do primeiro bloco 
-
-
 --Inicio da criação de tabelas
-
 --Comando para criação da tabela de produtos 
-
 --Segundo bloco 
 
 CREATE TABLE produtos (
