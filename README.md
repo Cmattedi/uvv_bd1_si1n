@@ -1,6 +1,6 @@
 # Banco de Dados "lojas-uvv"
 * **Nome do Aluno:** Cosme braz mattedi
-* **Matrícula:** 202320306288
+* **Matrícula:** 202306288
 * **Turma:** SI1N
 * **Nome do Professor:** Abrantes Araújo Silva Filho
 * **Nome da Monitora:** Suellen Miranda
